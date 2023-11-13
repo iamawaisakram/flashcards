@@ -1,48 +1,26 @@
 {
   "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-          "@pages/*": ["pages/*"],
-          "@/assets/*": ["assets/*"],
-          "@/icons": ["src/components/icons"],
-          "@/icons/*": ["src/components/icons/*"],
-          "@/atoms": ["src/components/atoms"],
-          "@/atoms/*": ["src/components/atoms/*"],
-          "@/molecules": ["src/components/molecules"],
-          "@/molecules/*": ["src/components/molecules/*"],
-          "@/organisms": ["src/components/organisms"],
-          "@/organisms/*": ["src/components/organisms/*"],
-          "@/templates": ["src/components/templates"],
-          "@/templates/*": ["src/components/templates/*"],
-          "@/hooks": ["src/hooks"],
-          "@/hooks/*": ["src/hooks/*"],
-          "@/utils/*": ["src/utils/*"],
-          "@/utils": ["src/utils/index.ts"],
-          "@/types": ["src/types/index.ts"],
-          "@/config": ["config/index.ts"],
-          "@/constants": ["constants/index.ts"],
-          "@/api": ["src/utils/api"],
-          "@/api/*": ["src/utils/api/*"],
-          "@src/*": ["src/*"],
-          "@styles/*": ["styles/*"],
-          "@/routes": ["routes/index.ts"]
-      },
-      "target": "es5",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "strict": false,
-      "downlevelIteration": true,
-      "forceConsistentCasingInFileNames": true,
-      "noEmit": true,
-      "incremental": true,
-      "esModuleInterop": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "jsx": "preserve"
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
-  "include": ["next-env.d.ts", "index.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ]
 }
