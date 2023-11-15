@@ -1,5 +1,5 @@
 import React from "react";
-import Flashcard from "./components/atoms/flashcard";
+import Flashcard from "./components/atoms/Flashcard/Flashcard";
 import "./App.css";
 
 const App: React.FC = () => {
